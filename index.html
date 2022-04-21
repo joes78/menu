@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="boton.css">
+    <link rel="stylesheet" href="grid.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,500&display=swap" rel="stylesheet" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <title>LA COCHALA</title>
+</head>
+<body>
+    <nav>
+        <div class="logo"></div>
+        <a class="btn">
+            <span></span>
+            <span></span>
+            <span></span>
+        </a>
+        <div class="menu">
+            <a href="#ini">INICIO</a>
+            <a href="#pla">PLATOS TIPICOS</a>
+            <a href="#prom">PROMOCIONES</a>
+            <a href="#con">CONTACTOS</a>
+        </div>
+    </nav>
+    <header></header>
+    <section>
+        <div id="ini">
+            <h1>INICIO</h1>
+            <p>Te lo adelantamos: en esta lista no encontrarás Pique Macho,
+                ni Silpancho, ni mucho menos Chicharrón. ¿Por qué? Porque todo
+                el mundo los conoce. Y además no necesariamente demuestran la
+                diversidad y complejidad de la comida del Valle. La «Llajta»,
+                corazón de Bolivia, posee muchísima más variedad de comida de la
+                que se podría imaginar. Bien podríamos hacer una lista con más de
+                cincuenta platos, pero como el tiempo es oro, aquí te presentamos
+                7 platos que demuestran por qué Cochabamba es la capital gastronómica
+                de Bolivia.</p>
+        </div>
+        <div id="pla">
+            <h1>PLATOS TIPICOS</h1>
+            <div class="grid-container">
+                <div>
+                    <p style="font-size: 20px; text-align: center;" >PICANA COCHABAMBINA</p>
+                    <a href="picana.jpg" target="_blank">
+                    <img src="picana.jpg" width="100%" height="auto">
+                    </a>
+                </div>
+                <div>
+                    <p style="font-size: 20px; text-align: center;" >PICHON</p>
+                    <a href="pichon.jpg" target="_blank">
+                    <img src="pichon.jpg" width="100%" height="auto">
+                    </a>
+                </div>
+                <div>
+                    <p style="font-size: 20px; text-align: center;" >LAPPING</p>
+                    <a href="laping.jpg" target="_blank">
+                    <img src="laping.jpg" width="100%" height="auto">
+                </a>
+                </div>
+                <div>
+                    <p style="font-size: 20px; text-align: center;" >HABAS PEJTU</p>
+                    <a href="habas.jpg" target="_blank">
+                    <img src="habas.jpg" width="100%" height="auto">
+                </a>
+                </div>
+                <div>
+                    <p style="font-size: 20px; text-align: center;" >CHAJCHU</p>
+                    <a href="chajchu.jpg" target="_blank">
+                    <img src="chajchu.jpg" width="100%" height="auto">
+                </a>
+                </div>
+                <div>
+                    <p style="font-size: 20px; text-align: center;" >PAMPAKU</p>
+                    <a href="pampaku.jpg" target="_blank">
+                    <img src="pampaku.jpg" width="100%" height="auto">
+                </a>
+                </div>
+                </div>
+
+            </div>
+ 
+        </div>
+        <div id="prom">
+            <h1>PROMOCIONES</h1>
+            <p>CONTAMOS CON PROMOCIONES DE PLATOS EXTRAS....</p>
+            <a href="promociones.jpg" target="_black">
+            <img src="promociones.jpg" width="80%" height="auto">
+        </a>
+        </div>
+        <div id="con">
+            <h1>CONTACTOS</h1>
+            <p>REALIZE SUS PEDIDOS AL NUMERO DE 78804844</p>
+        </div>
+    </section>
+    <script type="text/javascript">
+        $(".btn").on("click", function(){
+            $('.menu').toggleClass("show");
+        });
+    </script>
+</body>
+</html>

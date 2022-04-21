@@ -1,0 +1,31 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px;
+    background-color: #f33a21;
+    padding: 10px;
+  }
+  
+  .grid-container > div {
+    background-color: rgba(121, 41, 41, 0.8);
+    border: 1px solid black;
+    text-align: center;
+    font-size: 30px;
+  }
+@media screen and (max-width: 780px) {
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 1em;
+        grid-template-rows: minmax(50px auto);
+        padding: 10px;
+        margin:10px;
+      }
+      .grid-container div {
+        background: #6430a7;
+        padding: 1em;
+      }
+      .grid-container div:hover {
+        border: 2px solid rgb(42, 16, 90);
+      }
+    }
